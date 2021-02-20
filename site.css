@@ -6,9 +6,8 @@ body {
   background-color: lavender;
 }
 
-h1,
-a {
-  color: white;
+header {
+  background-color: white;
 }
 
 nav {
