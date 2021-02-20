@@ -1,0 +1,36 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #556688;
+}
+
+h1,
+a {
+  color: navy;
+}
+
+nav {
+  display: inline;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  margin: 0;
+  padding: 10px;
+  display: inline;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
