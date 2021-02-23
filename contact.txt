@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Page Title</title>
+  <link rel="stylesheet" type="text/css" href="site.css" media="all" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section>
+    <h2>If you would like to receive a personalized email about which dog breed
+      would best fit you or your family, please enter your email below and select
+      all that apply to you.</h2>
+    <form id="request-form" method="post" action="https://cs.cornell.edu/courses/cs1300/2020fa/submit.php" novalidate>
+      <div class="form-label">
+        <input type="checkbox" name="big-dog " id="big-dog" />
+        <label for="big-dog">Big dog</label>
+      </div>
+      <div class="form-label">
+        <input type="checkbox" name="small-dog " id="small-dog" />
+        <label for="small-dog">Small dog</label>
+      </div>
+      <div class="form-label">
+        <label for="request-email">Email:</label>
+        <input type="email" name="email" id="request-email" required />
+      </div>
+      <div class="align-right">
+        <input id="request-submit" type="submit" value="Request" />
+      </div>
+    </form>
+  </section>
+
+
+  <!-- <form method="get" action="search.php">
+    <label for="search-query"> Enter email here</label>
+    <input id="search-query" type="text" name="query" />
+    <input type="submit" />
+  </form> -->
+
+
+
+
+
+</body>
+
+</html>
