@@ -1,5 +1,6 @@
 html {
   font-family: sans-serif;
+  width: 80%;
 }
 
 body {
@@ -9,11 +10,13 @@ body {
 header {
   background-color: white;
   padding: 1px 10px 30px 10px;
+  margin: 10px;
 }
 
 footer {
   background-color: white;
   padding: 1px 10px 30px 10px;
+  margin: 10px;
 }
 
 nav {
