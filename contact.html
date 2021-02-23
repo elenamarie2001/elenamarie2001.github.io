@@ -23,22 +23,67 @@
     <h2>If you would like to receive a personalized email about which dog breed
       would best fit you or your family, please enter your email below and select
       all that apply to you.</h2>
+
     <form id="request-form" method="post" action="https://cs.cornell.edu/courses/cs1300/2020fa/submit.php" novalidate>
       <div class="form-label">
         <input type="checkbox" name="big-dog " id="big-dog" />
         <label for="big-dog">Big dog</label>
       </div>
+
       <div class="form-label">
-        <input type="checkbox" name="small-dog " id="small-dog" />
-        <label for="small-dog">Small dog</label>
-      </div>
-      <div class="form-label">
-        <label for="request-email">Email:</label>
-        <input type="email" name="email" id="request-email" required />
-      </div>
-      <div class="align-right">
-        <input id="request-submit" type="submit" value="Request" />
-      </div>
+        <input type="checkbox" name="medium-dog " id="medium-dog" />
+        <label for="medium-dog">Medium dog</label>
+
+        <div class="form-label">
+          <input type="checkbox" name="small-dog " id="small-dog" />
+          <label for="small-dog">Small dog</label>
+        </div>
+
+        <div class="form-label">
+          <input type="checkbox" name="playful-dog " id="playful-dog" />
+          <label for="playful-dog">Playful</label>
+
+          <div class="form-label">
+            <input type="checkbox" name="Easygoing-dog " id="Easygoing-dog" />
+            <label for="Easygoing-dog">Easygoing</label>
+
+            <div class="form-label">
+              <input type="checkbox" name="Longhair-dog " id="Longhair-dog" />
+              <label for="Longhair-dog">Long hair</label>
+
+              <div class="form-label">
+                <input type="checkbox" name="Shorthair-dog " id="Shorthair-dog" />
+                <label for="Shorthair-dog">Short hair</label>
+
+                <div class="form-label">
+                  <input type="checkbox" name="can-shed" id="can-shed" />
+                  <label for="can-shed">Can shed</label>
+
+                  <div class="form-label">
+                    <input type="checkbox" name="no-shed" id="no-shed" />
+                    <label for="no-shed">Prefer no shedding</label>
+
+                    <div class="form-label">
+                      <input type="checkbox" name="hypoallergenic" id="hypoallergenic" />
+                      <label for="hypoallergenic">Prefer to be hypoallergenic</label>
+
+                      <div class="form-label">
+                        <input type="checkbox" name="light-color" id="light-color" />
+                        <label for="light-color">Light color (golden, tan, etc) </label>
+
+                        <div class="form-label">
+                          <input type="checkbox" name="dark-color" id="dark-color" />
+                          <label for="dark-color">Dark color (brown, black, etc) </label>
+
+                          <div class="form-label">
+                            <label for="request-email">Email:</label>
+                            <input type="email" name="email" id="request-email" required />
+                          </div>
+
+                          <div class="align-right">
+                            <input id="request-submit" type="submit" value="Request" />
+                          </div>
+
     </form>
   </section>
 
